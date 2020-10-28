@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1800px;
+    justify-content: center;
+}
+    
+.menu {
+    width: 587px;
+    display: flex;
+    padding-top: 27px;
+}
+    
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+}
+    
+.list-item{
+    display: flex;
+    align-items: center;
+}
+    
+.list-link{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+}
+    
+.list-link-active {
+    border-bottom: solid 1px #FFFFFF ;
+}
+
+.list-link-disabled{
+    opacity: 0.8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-main{
+    width: 1600px;
+    align-self: center;
+}
+
+.content{
+    top: 230px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.content-title{
+
+    height: 75px;
+
+    color: #FFFFFF;
+    font-family: Roboto; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 61px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.7px;
+    text-transform: uppercase;
+}
+
+.content-paragraph{
+
+    padding-top: 30px;
+
+    width: 504px;
+    height: 70px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 180px;
+    height: 47px;
+    border: none;
+    background-color: #00AFDB;
+}
+
+.button-text{ 
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 140%;
+    text-align: center;
+}
+
+.elem{
+    padding-top: 180px;
+}
